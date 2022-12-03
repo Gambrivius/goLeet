@@ -1,7 +1,5 @@
 package goLeet
 
-import "fmt"
-
 var romanMap = map[rune]int{
 	'I': 1,
 	'V': 5,
@@ -15,7 +13,6 @@ var romanMap = map[rune]int{
 // scores an 84% on runtime and 83.58% on memory on leetcode
 func romanToInt(s string) int {
 	sum := 0
-	fmt.Println(s)
 	for i, c := range s {
 		minusOperation := false
 		lookAhead := ' '
