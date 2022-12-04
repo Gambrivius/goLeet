@@ -34,7 +34,7 @@ func uintToListNode(i uint64) *ListNode {
 	return root
 }
 
-func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
+func addTwoNumbersUint(l1 *ListNode, l2 *ListNode) *ListNode {
 	i1 := listNodeToUInt(l1)
 	i2 := listNodeToUInt(l2)
 	sum := i1 + i2
